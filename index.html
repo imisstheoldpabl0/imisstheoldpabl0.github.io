@@ -1,20 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <nav>
-
+            <ul>
+                <li><a href="#" class="logo">Home</a></li>
+                <li><a href="./pages/how-to-use.html">How to use</a></li>
+                <li><a href="./pages/whitepaper.html">Whitepaper</a></li>
+                <li><a href="./pages/contact.html">Contact</a></li>
+            </ul>
         </nav>
     </header>
 
     <main>
-        <h1>Hello this is a test</h1>
+        <section class="overlay">
+            <div class="graphics-overlay">
+                <script type="module" src="https://unpkg.com/@splinetool/viewer@1.0.51/build/spline-viewer.js"></script>
+                <spline-viewer url="https://prod.spline.design/eaI2mD2CmJ7Qx3Ef/scene.splinecode"></spline-viewer>
+            </div>
+
+            <div class="text-overlay">
+                <h2 class="mini-title">pabloW0rks</h2>
+                <h1 class="big-title">Trade BoyAI <br>brings you <br>smart finance <br>at your fingertips.</h1>
+
+            </div>
+        </section>
+
+        <section class="landing-info">
+            <h3 class="bottom-1">Trusted by millions of users worldwide. <br> <br>Join the revolution and let Trade BoyAI manage your assets. <br> <br>Stocks, Forex, Cryptocurrencies, ETFs and more!</h3>
+            <img src="./assets/imgs/gbc_01_subject.png" alt="trade-boy-mockup">
+
+        </section>
     </main>
-    
 </body>
+
 </html>
