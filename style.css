@@ -234,6 +234,7 @@ textarea {
     p {
         font-family: 'SFProRegular';
         width: 50%;
+        line-height: 140%;
     }
 
     ul > li {
